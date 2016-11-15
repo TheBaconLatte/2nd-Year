@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Simple Canvas Game</title>
+</head>
+<body>
+<!-- 	<audio id="effects" hidden >
+		<source src="cut_military.wav" type="audio/mpeg">
+		</audio> -->
+		<span id='effects'></span>
+		<script type="text/javascript">
+			var canvas = document.createElement("canvas");
+			var ctx = canvas.getContext("2d");
+			canvas.width = 512;
+			canvas.height = 480;
+			document.body.appendChild(canvas);
+		</script>
+		<script src="js/game.js"></script>
+	</body>
+	</html>
